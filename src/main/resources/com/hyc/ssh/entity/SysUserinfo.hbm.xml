@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.hyc.ssh.entity.SysUserinfo" table="sys_userinfo" schema="ssh">
+        <id name="id" column="id"/>
+        <property name="familyName" column="family_name"/>
+        <property name="firstName" column="first_name"/>
+        <property name="fullName" column="full_name"/>
+        <property name="enterpriseId" column="enterprise_id"/>
+        <property name="organizationId" column="organization_id"/>
+        <property name="mobile" column="mobile"/>
+        <property name="photo" column="photo"/>
+        <property name="sex" column="sex"/>
+        <property name="email" column="email"/>
+        <property name="weixin" column="weixin"/>
+        <property name="qq" column="qq"/>
+        <property name="officeAddress" column="office_address"/>
+        <property name="job" column="job"/>
+        <property name="jobNumber" column="job_number"/>
+        <property name="education" column="education"/>
+        <property name="school" column="school"/>
+        <property name="major" column="major"/>
+        <property name="graduationDate" column="graduation_date"/>
+        <property name="natives" column="natives"/>
+        <property name="nation" column="nation"/>
+        <property name="identity" column="identity"/>
+        <property name="passport" column="passport"/>
+        <property name="social" column="social"/>
+        <property name="bankAccount" column="bank_account"/>
+        <property name="birthday" column="birthday"/>
+        <property name="marriage" column="marriage"/>
+        <property name="address" column="address"/>
+        <property name="emergencyContact" column="emergency_contact"/>
+        <property name="emergencyPhone" column="emergency_phone"/>
+        <property name="linkList" column="link_list"/>
+        <property name="telPhone" column="tel_phone"/>
+        <property name="createBy" column="create_by"/>
+        <property name="createDate" column="create_date"/>
+        <property name="updateBy" column="update_by"/>
+        <property name="updateDate" column="update_date"/>
+        <property name="isUpload" column="is_upload"/>
+        <property name="isDelete" column="is_delete"/>
+    </class>
+</hibernate-mapping>
